@@ -47,7 +47,7 @@ footer {
     width: 100%;
     color: #111;
     background-color: #eee;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -60,6 +60,19 @@ footer {
 }
 
 .dogs img {
+    height: 250px;
+    margin: 50px;
+}
+
+.cats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    
+}
+
+.cats img {
     height: 250px;
     margin: 50px;
 }
