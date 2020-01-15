@@ -41,6 +41,8 @@ body {
     background-color: #111;
 }
 
+/*FOOTER*/
+
 footer {
     width: 100%;
     color: #111;
@@ -49,4 +51,15 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+}
+
+.dogs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.dogs img {
+    height: 250px;
+    margin: 50px;
 }
